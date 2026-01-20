@@ -60,6 +60,33 @@ button{
     min-height: 200px;
 }
 
+.more-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    background-color: rgb(209, 207, 207);
+    row-gap: 10px;
+}
+
+.some-quote{
+    font-size: 20px;
+
+}
+
+
+.some-author{
+    align-self: flex-end;
+    font-weight: bold;
+}
 
 .footer{
     display: flex;
